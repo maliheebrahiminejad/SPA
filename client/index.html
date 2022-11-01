@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="client/assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="main-layout">
+      <nav class="nav">
+        <div class="nav__logo">spa</div>
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="/" class="nav__link" data-link>
+              <span class="icon__container">
+                <i class="fa fa-dashboard"></i>
+              </span>
+              <span class="nav__item-label">داشبورد</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="products" class="nav__link" data-link>
+              <span class="icon__container"
+                ><i class="fa-brands fa-product-hunt"></i
+              ></span>
+              <span class="nav__item-label">محصولات</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="posts" class="nav__link" data-link>
+              <span class="icon__container">
+                <i class="fa-brands fa-blogger-b"></i>
+              </span>
+              <span class="nav__item-label">پست</span>
+            </a>
+          </li>
+        </ul>
+        <div class="app-version">
+          <span class="app-version__label">SPA V.1</span>
+          <span class="icon-container sidebar-toggler">
+            <i class="fas fa-chevron-right"></i>
+          </span>
+        </div>
+      </nav>
+      <main id="app"></main>
+    </section>
+    <script src="client/assets/js/main.js" type="module"></script>
+  </body>
+</html>
